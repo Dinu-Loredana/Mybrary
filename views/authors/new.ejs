@@ -1,0 +1,10 @@
+<h2>New Author</h2>
+
+<!--route we have a post route, we need to send a post request to the server, can do that with form-->
+<form action="/authors" method="POST">
+    <%- include('_form_fields') %>
+        <a href="/authors">Cancel</a> <!-- use <a>to link to a page-->
+        <button type="submit">Create</button>
+        <!--use button to interact with the page, submit form data-->
+
+</form>
